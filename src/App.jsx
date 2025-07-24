@@ -1,4 +1,4 @@
-import './app.css'
+import './App.css'
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Menu from "./Telas/Menu";
 import Login from "./Telas/Login";
