@@ -9,7 +9,7 @@ export default function MenuDP() {
                 <div style={styles.buttonRow}>
                     {/* Botão WhatsApp */}
                     <a
-                        href="https://wa.me/5521983952643"
+                        href="https://wa.me/5521992890915"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ ...styles.button, ...styles.whatsapp }}
@@ -18,7 +18,7 @@ export default function MenuDP() {
                         WhatsApp
                     </a>
                     <a
-                        href="https://wa.me/5521983952643"
+                        href="https://t.me/Mileumbot"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ ...styles.button, ...styles.telegram }}
