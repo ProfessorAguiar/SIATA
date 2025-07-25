@@ -150,6 +150,10 @@
   width: 90%;
   max-width: 500px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .foto-modal {
@@ -179,6 +183,7 @@
   align-items: center;
   gap: 10px;
   margin: 10px 0;
+  justify-content: center;
 }
 
 .botao-toggle {
@@ -187,4 +192,7 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+select.campo-filtro{
+  width: 300px;
 }

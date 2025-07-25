@@ -70,6 +70,23 @@ a{
     background-color: #fff;
     cursor: pointer;
 }
+
+#avatarNot{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border-radius: 50%;
+    background-color: #fb0000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-weight: 700;
+}
+
 .menu{
     display: flex;
     flex-direction: column;

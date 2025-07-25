@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Menu() {
   const [user, setUser] = useState(JSON.parse(sessionStorage.getItem('user')))
   const [fabOpen, setFabOpen] = useState(false)
-   const navigate = useNavigate();
+  const navigate = useNavigate();
   const abrirPerfil = () => {
     window.location.href = '/Perfil'
   }
@@ -57,11 +57,14 @@ export default function Menu() {
       </div>
 
       {/* Ícone de lupa - Pesquisa */}
-      
+
 
       {/* Avatar do usuário */}
       <img src={user.photoURL} alt="avatar" id='avatar' onClick={() => setFabOpen(!fabOpen)} />
-
+      <span id='avatarNot'>
+        5
+        <span class="visually-hidden">unread messages</span>
+      </span>
       {/* Menu flutuante de perfil/sair */}
       {fabOpen && (
         <div className='fab-menu'>
@@ -78,7 +81,7 @@ export default function Menu() {
       )}
 
       <h2>Menu</h2>
-      <h3 style={{ color: '#fff', fontSize: '18px', marginBottom: '20px', backgroundColor: '#33333300', position:'relative' }}>
+      <h3 style={{ color: '#fff', fontSize: '18px', marginBottom: '20px', backgroundColor: '#33333300', position: 'relative' }}>
         Seja bem-vindo, {user.displayName}! ao Sistema de Integração ATA
       </h3>
 
