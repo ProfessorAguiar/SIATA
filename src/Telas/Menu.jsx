@@ -92,7 +92,7 @@ export default function Menu() {
           <li onClick={listarRH}><a href="#">RH</a></li>
           <li onClick={abrirCadastroFuncionario}><a href="#">Cadastrar funcionário</a></li>
           <li onClick={abrirPerfil}><a href="#">Perfil</a></li>
-          <li><a href="#" onClick={handleLogout}>Sair</a></li>
+          <li onClick={handleLogout}><a href="#" >Sair</a></li>
         </ul>
       </section>
 
